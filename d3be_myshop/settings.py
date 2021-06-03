@@ -129,3 +129,7 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 CART_SESSION_ID = 'cart'
+
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6397
+REDIS_DB = 1
